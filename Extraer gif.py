@@ -24,8 +24,9 @@ app = []
 for fr in ImageSequence.Iterator(im):
     app.append(fr)
   
-    fr.save("%d.gif"%i)
+    fr.save("%d.png"%i)
     print("imagen_%d.png"%i)
     
     i = i + 1
  
+
